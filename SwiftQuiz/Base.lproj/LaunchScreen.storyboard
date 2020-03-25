@@ -15,12 +15,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="Xat-uQ-OgS">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="Xat-uQ-OgS">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="Xat-uQ-OgS" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="MS4-Bd-U7p"/>
+                            <constraint firstItem="Xat-uQ-OgS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Plz-4g-gvF"/>
+                            <constraint firstItem="Xat-uQ-OgS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="caS-6h-MHh"/>
                             <constraint firstItem="Xat-uQ-OgS" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="hMh-LC-QZn"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
